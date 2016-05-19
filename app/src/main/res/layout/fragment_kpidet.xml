@@ -1,0 +1,141 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rishabh_pc.reckpi.kpidet">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <!-- TODO: Update blank fragment layout -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ret isdn:"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/retid"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Created at:"
+                android:id="@+id/create1"
+                android:layout_below="@id/retid"
+                android:layout_marginLeft="110dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Created at"
+                android:id="@+id/create"
+                android:layout_below="@id/retid"
+                android:layout_marginLeft="25dp"
+                android:layout_toRightOf="@id/create1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last month:"
+                android:id="@+id/lmtd1"
+                android:layout_below="@id/create"
+                android:layout_alignRight="@id/create1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last month:"
+                android:id="@+id/lmtd"
+                android:layout_below="@id/create"
+                android:layout_alignStart="@id/create"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Current month:"
+                android:id="@+id/mtd1"
+                android:layout_below="@id/lmtd"
+                android:layout_alignRight="@id/create1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Current month:"
+                android:id="@+id/mtd"
+                android:layout_below="@id/lmtd"
+                android:layout_alignStart="@id/create"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Topup Last month:"
+                android:id="@+id/vlast1"
+                android:layout_below="@id/mtd"
+                android:layout_alignRight="@id/create1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Topup Last month:"
+                android:id="@+id/vlast"
+                android:layout_below="@id/mtd"
+                android:layout_alignStart="@id/create"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Topup Current month:"
+                android:id="@+id/vcurr1"
+                android:layout_below="@id/vlast"
+                android:layout_alignRight="@id/create1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Topup Current month:"
+                android:id="@+id/vcurr"
+                android:layout_below="@id/vlast"
+                android:layout_alignStart="@id/create"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ftd:"
+                android:id="@+id/ftd1"
+                android:layout_below="@id/vcurr"
+                android:layout_alignRight="@id/create1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ftd:"
+                android:id="@+id/ftd"
+                android:layout_below="@id/vcurr"
+                android:layout_alignStart="@id/create"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Commission last month:"
+                android:id="@+id/comml1"
+                android:layout_below="@id/ftd"
+                android:layout_alignRight="@id/create1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Commission last month:"
+                android:id="@+id/comml"
+                android:layout_below="@id/ftd"
+                android:layout_alignStart="@id/create"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Commission current month:"
+                android:id="@+id/commc1"
+                android:layout_below="@id/comml"
+                android:layout_alignRight="@id/create1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Commission current month:"
+                android:id="@+id/commc"
+                android:layout_below="@id/comml"
+                android:layout_alignStart="@id/create"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>
